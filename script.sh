@@ -14,6 +14,9 @@ sudo apt install git -y
 echo "Cleaning web root"
 sudo rm -rf /var/www/html/*
 
+echo "Permission Set"
+sudo chmod 777 /var/www/html
+
 echo "Cloning website"
 git clone https://github.com/varadsawantgit/linuxgit.git /var/www/html
 
