@@ -1,0 +1,13 @@
+body {
+  background: #f8f9fa;
+}
+
+.quiz-card {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.choice-btn {
+  margin-bottom: 10px;
+  text-align: left;
+}
