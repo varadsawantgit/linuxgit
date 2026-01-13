@@ -1,13 +1,35 @@
 body {
-  background: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-.quiz-card {
-  max-width: 700px;
-  margin: 50px auto;
+.modal-content {
+  border: none;
 }
 
 .choice-btn {
+  border-radius: 14px;
+  padding: 12px;
   margin-bottom: 10px;
-  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.choice-btn:hover {
+  transform: scale(1.02);
+}
+
+.progress {
+  height: 6px;
+  border-radius: 10px;
+}
+
+#reviewSection {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#reviewSection div {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 8px;
 }
